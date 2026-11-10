@@ -21,7 +21,7 @@ https://www.ncbi.nlm.nih.gov/sra/SRX18249254
 
 <img width="471" height="392" alt="Screenshot 2026-11-11 000023" src="https://github.com/user-attachments/assets/a81fdca4-9ff6-4fe0-a512-098eba375b63" />
 
-**_Figure 1_**. Uploaded genomic FASTA file and assembly report for Acinonyx jubatus (cheetah), which provide the reference genome and supporting information for the analysis.
+**_Figure 1_**. Uploaded genomic FASTA file and assembly report for _Acinonyx jubatus_ (cheetah), which provide the reference genome and supporting information for the analysis.
 
 <img width="1061" height="871" alt="Screenshot 2026-11-11 000217 - Copy (2)" src="https://github.com/user-attachments/assets/52ee2935-65f7-4d4f-8bf6-efd9a1307791" />
 
