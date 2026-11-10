@@ -20,21 +20,27 @@ https://www.ncbi.nlm.nih.gov/sra/SRX18249254
 ## Galaxy 
 
 <img width="1061" height="871" alt="Screenshot 2026-11-11 000217" src="https://github.com/user-attachments/assets/0be219b0-bf63-47a9-8d21-c03a7b8edba9" />
+
 **_Figure 1_**. Uploaded genomic FASTA file and assembly report for Acinonyx jubatus (cheetah), which provide the reference genome and supporting information for the analysis.
 
 <img width="1061" height="871" alt="Screenshot 2026-11-11 000217 - Copy (2)" src="https://github.com/user-attachments/assets/52ee2935-65f7-4d4f-8bf6-efd9a1307791" />
+
 **_Figure 2_**. Faster Download and Extract Reads in FASTQ format tool configured with the SRA accession number SRR22273180 to retrieve the cheetah sequencing data.
 
 <img width="887" height="872" alt="Screenshot 2026-11-11 000325" src="https://github.com/user-attachments/assets/a2d7ecec-951f-4609-b365-78b42db4e10c" />
+
 **_Figure 3_**. FastQC tool parameters used to assess the quality of the sequencing reads before proceeding with the downstream genomic analysis.
 
 <img width="866" height="552" alt="Screenshot 2026-11-11 000400" src="https://github.com/user-attachments/assets/25e09bcf-8698-4edd-ad6a-0230d0c5c349" />
+
 **_Figure 4_**. Configuration of the Unzip Collection tool, which separates the paired-end sequencing datasets into individual forward and reverse read files for subsequent processing.
 
 <img width="868" height="848" alt="Screenshot 2026-11-11 000501" src="https://github.com/user-attachments/assets/cf3e6b28-4908-4534-aa3f-5f6fd0ed712f" />
+
 **_Figure 5_**. BWA-MEM2 tool settings, including the selected reference genome and paired-end sequencing reads, which are used to align the sequencing data to the cheetah reference genome.
 
 <img width="861" height="862" alt="Screenshot 2026-11-11 000625" src="https://github.com/user-attachments/assets/3fc490a2-86a3-4fde-a3a9-a3bdff045d90" />
+
 **_Figure 6_**. Samtools Coverage tool and its parameters for calculating sequencing read coverage across the reference genome.
 
 https://usegalaxy.org/u/krismelon/h/sex-dosage-acinonyx-jubatus
@@ -116,6 +122,7 @@ writeLines(summary, "results/sex_inference.txt")
 cat(paste(summary, collapse = "\n"), "\n")
 
 <img width="1920" height="1080" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/14e7191e-22c0-4aac-89cf-09b1dbb76180" />
+
 **_Figure 7_**. Running the sex chromosome depth analysis script in RStudio and displaying the calculated sequencing depth results and dosage interpretation.
 
 ## Coverage Table
@@ -134,6 +141,7 @@ cat(paste(summary, collapse = "\n"), "\n")
 ## Interpretation of the WGS Chromosome-Depth Analysis
 
 <img width="1000" height="580" alt="chromosome_depth" src="https://github.com/user-attachments/assets/165adc76-c39b-4ac3-a520-fa37f22b8fad" />
+
 **_Figure 8_**. Relative sequencing depth across the analyzed chromosomes of the cheetah (Acinonyx jubatus), with reference lines indicating the expected two-copy (1.0) and one-copy (0.5) coverage levels.
 
 The bar plot shows generally consistent sequencing coverage across all analyzed chromosomes, with most values remaining close to the 1.0 baseline, which represents the expected coverage for chromosomes with two copies. Although the last bar shows a slightly lower sequencing depth compared to the others, it remains well above the 0.5 threshold. This indicates that none of the analyzed chromosomes displays a clear reduction to half the expected sequencing depth. The overall pattern suggests that the chromosomes have relatively similar coverage and that there is no obvious evidence of a chromosome with reduced copy representation. 
